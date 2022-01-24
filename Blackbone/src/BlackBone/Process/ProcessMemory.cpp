@@ -12,7 +12,9 @@ ProcessMemory::ProcessMemory( Process* process )
 {
 }
 
-ProcessMemory::~ProcessMemory() = default;
+ProcessMemory::~ProcessMemory()
+{
+}
 
 /// <summary>
 /// Allocate new memory block

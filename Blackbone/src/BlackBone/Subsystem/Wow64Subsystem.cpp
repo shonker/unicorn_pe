@@ -11,7 +11,9 @@ NativeWow64::NativeWow64( HANDLE hProcess )
 {
 }
 
-NativeWow64::~NativeWow64() = default;
+NativeWow64::~NativeWow64()
+{
+}
 
 /// <summary>
 /// Allocate virtual memory

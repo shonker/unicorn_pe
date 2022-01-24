@@ -24,7 +24,9 @@ Process::Process()
     InitializeOnce();
 }
 
-Process::~Process(void) = default;
+Process::~Process(void)
+{
+}
 
 /// <summary>
 /// Attach to existing process

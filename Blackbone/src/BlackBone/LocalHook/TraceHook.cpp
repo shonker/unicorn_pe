@@ -22,7 +22,9 @@
 namespace blackbone
 {
 
-TraceHook::TraceHook() = default;
+TraceHook::TraceHook()
+{
+}
 
 TraceHook::~TraceHook()
 {

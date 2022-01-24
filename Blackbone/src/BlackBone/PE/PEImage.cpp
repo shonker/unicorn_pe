@@ -16,7 +16,9 @@ namespace blackbone
 namespace pe
 {
 
-PEImage::PEImage(void) = default;
+PEImage::PEImage( void )
+{
+}
 
 PEImage::~PEImage( void )
 {

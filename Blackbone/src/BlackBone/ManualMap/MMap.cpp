@@ -21,10 +21,10 @@ MMap::MMap( Process& proc )
 {
 }
 
-MMap::~MMap(void) = default;
-//{
-//    UnmapAllModules();
-//}
+MMap::~MMap(void)
+{
+    //UnmapAllModules();
+}
 
 /// <summary>
 /// Manually map PE image into underlying target process

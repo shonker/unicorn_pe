@@ -14,7 +14,9 @@ ProcessThreads::ProcessThreads( ProcessCore& core )
 {
 }
 
-ProcessThreads::~ProcessThreads() = default;
+ProcessThreads::~ProcessThreads()
+{
+}
 
 /// <summary>
 /// Create the thread.
